@@ -25,7 +25,7 @@ $(document).ready(function () {
         if(wowCount <= 4) {
           wowMsg = "your wow is lame";
         }
-        else if(4 < wowCount <= 8) {
+        else if(wowCount <= 8) {
           wowMsg = "your wow is mediocre";
         }
         else{
